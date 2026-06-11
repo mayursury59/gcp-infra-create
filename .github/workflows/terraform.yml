@@ -20,11 +20,10 @@ jobs:
 
       - name: Setup GCloud
         uses: google-github-actions/setup-gcloud@v2
-       
+
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
-        with:
-   
+
       - name: Terraform init
         run: terraform init
 
