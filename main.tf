@@ -11,7 +11,7 @@ provider "google" {
 }
 
 module "vm" {
-    source = "git::https://github.com/mayursury59/terraform-modules.git//vm"
+    source = "git::https://github.com/mayursury59/terraform-modules.git//VM"
 
     vm_name = var.vm_name
     machine_type = var.machine_type
